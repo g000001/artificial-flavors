@@ -58,8 +58,6 @@
                                  (slots-for-class class))
          ,@body))))
 
-
-
 #-scl
 (defun slots-for-class (class-name)
   (let ((class (find-class class-name)))
