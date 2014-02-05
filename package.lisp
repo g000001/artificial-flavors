@@ -11,7 +11,7 @@
   (:use :cl)
   (:shadow :defmethod :make-instance)
   (:export :defflavor :defmethod :make-instance :symbol-value-in-instance :boundp-in-instance
-           :ompile-flavor-methods :self))
+           :compile-flavor-methods :self))
 
 #+:MCL
 (defpackage clos
